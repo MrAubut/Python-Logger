@@ -1,0 +1,35 @@
+Background
+==========
+
+A simple service clients can connect to to log messages
+
+Requirements
+============
+
+Software:
+	python2.7
+	pyinstaller
+
+
+Installation
+============
+
+To compile run:
+	./compile.sh
+
+	./dist/LoggingService
+
+Useage
+======
+
+usage: LoggingService [-h] [-d DEPTH]
+
+Simple Logging service
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d DEPTH, --depth DEPTH
+                        Configure the log depth to store in memory default =
+                        1000
+
+
